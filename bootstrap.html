@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>  
+</head>
+<body>
+<div style="background-color:rgb(207, 206, 207)">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/avatar.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Twitter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Linkedin</a>
+        </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/programmer.jpg" alt="Los Angeles" class="d-block" style="width:100%;height:400px">
+      <div class="carousel-caption">
+        <h3>Have fun with programming</h3>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/laravel.jpeg" alt="Chicago" class="d-block" style="width:100%;height:400px">
+      <div class="carousel-caption">
+        <h3>Laravel</h3>
+        <p>PHP framework!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="img/django.png" alt="New York" class="d-block" style="width:100%;height:400px">
+      <div class="carousel-caption">
+        <h3>Django</h3>
+        <p>Python framework!</p>
+      </div>  
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container p-5 my-5 bg-dark text-white">
+  <h1>Leen Mohammed</h1>
+  <p>Back-end Developer.</p>
+
+  <div class="row">
+    <div class="col-sm-3 p-3 border">
+      <div class="card text-black" >
+    <img class="card-img-top" src="img/avatar.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Leen Mh</h4>
+      <p class="card-text">Graduated From damascus university class of 2022.<br>
+                            Specialized in Software Engineering. </p>
+      
+	<div class="dropdown dropdown-menu-start">
+      <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">follow..</button>
+      <ul class="dropdown-menu">
+	<li><h5 class="dropdown-header">Social Media</h5></li>
+        <li><a href="#" class="dropdown-item">facebook</a></li>
+        <li><a href="#" class="dropdown-item">twitter</a></li>
+	<li><h5 class="dropdown-header">Business</h5></li>
+	<li><a href="#" class="dropdown-item">linkedin</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+    </div>
+
+    <div class="col-lg p-3 border">
+      <h3>Skills</h3> 
+<p>Django</p>
+<div class="progress" style="height:30px">
+  <div class="progress-bar" style="width:65%;background-color:rgb(237, 148, 237)">65%</div>
+</div>
+<br>
+
+<p>Laravel</p>
+<div class="progress" style="height:30px">
+  <div class="progress-bar" style="width:70%;background-color:rgb(237, 148, 237)">70%</div>
+</div>
+<br>
+
+<p>Java</p>
+<div class="progress" style="height:30px">
+  <div class="progress-bar" style="width:90%;background-color:rgb(237, 148, 237)">90%</div>
+</div>       
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
